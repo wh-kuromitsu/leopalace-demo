@@ -22,7 +22,7 @@ import {
 import { TENANTS, DEFAULT_TENANT_ID } from "../data/tenantsData";
 
 const NAV = [
-  { id: "dashboard", label: "ダッシュボード", icon: Home, group: "main" },
+  // { id: "dashboard", label: "ダッシュボード", icon: Home, group: "main" },
   { id: "cases", label: "案件管理", icon: ClipboardList, group: "main", badge: 8, attention: 2 },
   { id: "proposal", label: "提案作成", icon: FilePlus, group: "main" },
   // { id: "crm", label: "潜在顧客管理(CRM)", icon: Users, group: "main" },
@@ -34,7 +34,7 @@ const NAV = [
   // { id: "reaction", label: "反響システム", icon: CloudIcon, group: "output" },
   { id: "templates", label: "テンプレート", icon: LayoutTemplate, group: "output" },
   // { id: "salesforce", label: "Salesforce連携", icon: Cloud, group: "system", soon: true },
-  { id: "notifications", label: "通知", icon: Bell, group: "system", badge: 4, attention: 3 },
+  // { id: "notifications", label: "通知", icon: Bell, group: "system", badge: 4, attention: 3 },
   { id: "logs", label: "操作ログ", icon: Activity, group: "system", adminOnly: false },
   { id: "settings", label: "設定", icon: Settings, group: "system" },
   // { id: "recipient", label: "受取側プレビュー", icon: ExternalLink, group: "demo" },

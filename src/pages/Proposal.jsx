@@ -1114,7 +1114,7 @@ function Step2AiAnalysis({ selectedCase, analysis, setAnalysis, onNext, onBack }
           )}
           <button
             onClick={onNext}
-            disabled={!canProceed}
+            // disabled={!canProceed}
             className={`px-4 py-1.5 text-[12px] font-bold rounded inline-flex items-center gap-1 ${
               canProceed
                 ? "text-white bg-brand hover:bg-brand-dark"

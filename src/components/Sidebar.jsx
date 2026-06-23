@@ -45,7 +45,7 @@ const GROUPS = {
   master: "マスタ管理",
   output: "出力",
   system: "システム",
-  demo: "デモ（受取側）",
+  // demo: "デモ（受取側）",
 };
 
 export default function Sidebar({ current, setCurrent }) {

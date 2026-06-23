@@ -358,10 +358,10 @@ function RolesTab() {
 
   return (
     <div>
-      <div className="bg-human-light/40 border border-human/20 rounded p-3 mb-4 flex items-center gap-2 text-[11px] text-human-dark">
+      {/* <div className="bg-human-light/40 border border-human/20 rounded p-3 mb-4 flex items-center gap-2 text-[11px] text-human-dark">
         <Shield className="w-4 h-4" />
         権限変更・ユーザー追加は管理者操作です。すべての変更は操作ログに記録されます。
-      </div>
+      </div> */}
 
       {/* ロール別カウント */}
       <h3 className="text-[13px] font-bold text-slate-800 mb-2">

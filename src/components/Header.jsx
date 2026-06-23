@@ -42,9 +42,9 @@ export default function Header({ current, setCurrent }) {
         </div>
 
         <div className="flex items-center gap-3">
-          <button className="w-8 h-8 inline-flex items-center justify-center rounded hover:bg-slate-100 text-slate-600">
+          {/* <button className="w-8 h-8 inline-flex items-center justify-center rounded hover:bg-slate-100 text-slate-600">
             <HelpCircle className="w-4 h-4" />
-          </button>
+          </button> */}
 
           <button
             onClick={() => setCurrent && setCurrent("notifications")}

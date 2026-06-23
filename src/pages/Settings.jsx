@@ -20,8 +20,8 @@ import { CURRENT_USER, USERS, ROLES, roleBadgeClass } from "../data/usersData";
 
 const TABS = [
   { id: "profile", label: "プロフィール", icon: User },
-  { id: "notifications", label: "通知設定", icon: Bell },
-  { id: "integrations", label: "外部連携", icon: Cloud },
+  // { id: "notifications", label: "通知設定", icon: Bell },
+  // { id: "integrations", label: "外部連携", icon: Cloud },
   { id: "roles", label: "権限管理", icon: BadgeCheck },
 ];
 

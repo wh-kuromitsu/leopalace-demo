@@ -1116,9 +1116,9 @@ function Step2AiAnalysis({ selectedCase, analysis, setAnalysis, onNext, onBack }
             onClick={onNext}
             // disabled={!canProceed}
             className={`px-4 py-1.5 text-[12px] font-bold rounded inline-flex items-center gap-1 ${
-              canProceed
-                ? "text-white bg-brand hover:bg-brand-dark"
-                : "text-slate-400 bg-slate-100 border border-slate-200 cursor-not-allowed"
+              // canProceed
+                "text-white bg-brand hover:bg-brand-dark"
+                // : "text-slate-400 bg-slate-100 border border-slate-200 cursor-not-allowed"
             }`}
           >
             この条件で物件検索へ進む
@@ -2719,14 +2719,14 @@ function Step4Output({ selectedCase, candidates, setCandidates, onBack, onReset,
               <ImageIcon className="w-3.5 h-3.5" />
               図面写真
             </button>
-            <button
+            {/* <button
               onClick={() => alert(`PowerPoint形式（商談用スライド）で提案資料を出力しました（モック）`)}
               disabled={finalProps.length === 0}
               className="px-3 py-1.5 text-[12px] font-bold text-white rounded bg-orange-500 hover:bg-orange-600 disabled:opacity-40 disabled:cursor-not-allowed inline-flex items-center gap-1"
             >
               <FileText className="w-3.5 h-3.5" />
               PowerPoint出力
-            </button>
+            </button> */}
             <button
               onClick={() => setShowShareDialog(true)}
               disabled={finalProps.length === 0}
@@ -2735,22 +2735,22 @@ function Step4Output({ selectedCase, candidates, setCandidates, onBack, onReset,
               <LinkIcon className="w-3.5 h-3.5" />
               URL共有
             </button>
-            <button
+            {/* <button
               onClick={() => setShowMail(true)}
               disabled={finalProps.length === 0}
               className="px-3 py-1.5 text-[12px] font-bold text-white rounded bg-indigo-600 hover:bg-indigo-700 disabled:opacity-40 disabled:cursor-not-allowed inline-flex items-center gap-1"
             >
               <Mail className="w-3.5 h-3.5" />
               メールで送信
-            </button>
-            <button
+            </button> */}
+            {/* <button
               onClick={() => alert(`PDF形式（${template?.name}）で提案資料を出力しました（モック）`)}
               disabled={finalProps.length === 0}
               className="px-3 py-1.5 text-[12px] font-bold text-white rounded bg-rose-600 hover:bg-rose-700 disabled:opacity-40 disabled:cursor-not-allowed inline-flex items-center gap-1"
             >
               <FileText className="w-3.5 h-3.5" />
               PDF出力
-            </button>
+            </button> */}
           </div>
           </div>
         </div>

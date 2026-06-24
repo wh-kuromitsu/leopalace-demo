@@ -33,7 +33,7 @@ const NAV = [
   { id: "properties", label: "物件", icon: Building2, group: "master" },
   { id: "history", label: "提案資料履歴", icon: FileText, group: "output" },
   // { id: "reaction", label: "反響システム", icon: CloudIcon, group: "output" },
-  { id: "templates", label: "テンプレート", icon: LayoutTemplate, group: "output" },
+  // { id: "templates", label: "テンプレート", icon: LayoutTemplate, group: "output" },
   // { id: "salesforce", label: "Salesforce連携", icon: Cloud, group: "system", soon: true },
   // { id: "notifications", label: "通知", icon: Bell, group: "system", badge: 4, attention: 3 },
   { id: "logs", label: "操作ログ", icon: Activity, group: "system", adminOnly: false },
